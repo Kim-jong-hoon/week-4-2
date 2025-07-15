@@ -18,13 +18,8 @@ ReLU는 입력값이 0보다 크면 그대로 출력하고, 0 이하이면 0으�
 **사용 위치**:  
 - CNN의 **합성곱층(Convolutional Layer)** 또는 **은닉층(Hidden Layer)** 뒤에 주로 사용
 
-**예시 코드** (Python/TensorFlow):
-```python
-import tensorflow as tf
 
-output = tf.nn.relu(conv_output)
-
-##🔹 2. Softmax
+## 🔹 2. Softmax
 정의:
 Softmax는 여러 클래스 점수를 확률 값으로 정규화하는 함수입니다. 출력값의 총합은 1이 되며, 각각을 확률처럼 해석할 수 있습니다.
 
